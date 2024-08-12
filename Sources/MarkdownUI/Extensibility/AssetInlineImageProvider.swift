@@ -23,6 +23,7 @@ public struct AssetInlineImageProvider: InlineImageProvider {
   }
 }
 
+@available(iOS 15, *)
 extension InlineImageProvider where Self == AssetInlineImageProvider {
   /// An inline image provider that loads images from resources located in an app or a module.
   ///

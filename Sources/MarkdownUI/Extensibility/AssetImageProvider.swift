@@ -67,6 +67,7 @@ extension ImageProvider where Self == AssetImageProvider {
   private typealias PlatformImage = NSImage
 #endif
 
+@available(iOS 15, *)
 extension Image {
   fileprivate init(platformImage: PlatformImage) {
     #if canImport(UIKit)
