@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// An inline image provider that loads images from resources located in an app or a module.
+@available(iOS 15, *)
 public struct AssetInlineImageProvider: InlineImageProvider {
   private let name: (URL) -> String
   private let bundle: Bundle?

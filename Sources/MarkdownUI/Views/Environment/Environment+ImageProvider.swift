@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 15, *)
 extension View {
   /// Sets the image provider for the Markdown images in a view hierarchy.
   /// - Parameter imageProvider: The image provider to set. Use one of the built-in values, like
@@ -12,6 +13,7 @@ extension View {
   }
 }
 
+@available(iOS 15, *)
 extension EnvironmentValues {
   var imageProvider: AnyImageProvider {
     get { self[ImageProviderKey.self] }

@@ -286,6 +286,7 @@ extension Markdown {
   }
 }
 
+@available(iOS 15, *)
 private struct ScaledFontSizeModifier: ViewModifier {
   @ScaledMetric private var size: CGFloat
 

@@ -27,6 +27,7 @@ import SwiftUI
 /// ```
 ///
 /// ![](CustomTableBackground)
+@available(iOS 15, *)
 public struct TableBackgroundStyle {
   let background: (_ row: Int, _ column: Int) -> AnyShapeStyle
 

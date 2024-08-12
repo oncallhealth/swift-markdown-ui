@@ -37,6 +37,7 @@ import SwiftUI
 /// ```
 ///
 /// ![](CustomBlockquote)
+@available(iOS 15, *)
 public struct BlockStyle<Configuration> {
   private let body: (Configuration) -> AnyView
 
