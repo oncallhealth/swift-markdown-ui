@@ -6,7 +6,7 @@ let package = Package(
   name: "swift-markdown-ui",
   platforms: [
     .macOS(.v12),
-    .iOS(.v15),
+    .iOS(.v13),
     .tvOS(.v15),
     .macCatalyst(.v15),
     .watchOS(.v8),
@@ -18,7 +18,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/gonzalezreal/NetworkImage", from: "6.0.0"),
+    .package(url: "https://github.com/oncallhealth/NetworkImage", branch: "main"),
     .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.10.0"),
     .package(url: "https://github.com/swiftlang/swift-cmark", from: "0.4.0"),
   ],

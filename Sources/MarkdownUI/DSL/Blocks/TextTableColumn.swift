@@ -18,6 +18,7 @@ import Foundation
 /// ```swift
 /// TextTableColumn(title: "Name", value: \.name)
 /// ```
+@available(iOS 15, *)
 public struct TextTableColumn<RowValue> {
   let alignment: TextTableColumnAlignment?
   let title: InlineContent

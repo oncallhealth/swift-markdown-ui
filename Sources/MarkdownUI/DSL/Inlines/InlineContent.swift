@@ -1,6 +1,7 @@
 import Foundation
 
 /// A protocol that represents any Markdown inline content.
+@available(iOS 15, *)
 public protocol InlineContentProtocol {
   var _inlineContent: InlineContent { get }
 }
@@ -32,6 +33,7 @@ public protocol InlineContentProtocol {
 ///   }
 /// }
 /// ```
+@available(iOS 15, *)
 public struct InlineContent: Equatable, InlineContentProtocol {
   public var _inlineContent: InlineContent { self }
   let inlines: [InlineNode]

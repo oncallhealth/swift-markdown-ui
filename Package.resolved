@@ -3,10 +3,10 @@
     {
       "identity" : "networkimage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/gonzalezreal/NetworkImage",
+      "location" : "https://github.com/oncallhealth/NetworkImage",
       "state" : {
-        "revision" : "7aff8d1b31148d32c5933d75557d42f6323ee3d1",
-        "version" : "6.0.0"
+        "branch" : "main",
+        "revision" : "88818f7e9b512b2fe45b4a04596d5c476e79b4b6"
       }
     },
     {

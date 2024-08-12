@@ -24,6 +24,7 @@ import Foundation
 /// ```
 ///
 /// ![](InlineImage)
+@available(iOS 15, *)
 public struct InlineImage: InlineContentProtocol {
   public var _inlineContent: InlineContent {
     .init(inlines: [.image(source: self.source, children: self.content.inlines)])

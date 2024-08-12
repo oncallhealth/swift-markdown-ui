@@ -1,6 +1,7 @@
 import Foundation
 
 /// A code span in a Markdown content block.
+@available(iOS 15, *)
 public struct Code: InlineContentProtocol {
   public var _inlineContent: InlineContent {
     .init(inlines: [.code(self.text)])
