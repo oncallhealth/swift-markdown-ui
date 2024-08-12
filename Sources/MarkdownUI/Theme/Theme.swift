@@ -251,6 +251,7 @@ extension Theme {
   }
 }
 
+@available(iOS 15, *)
 extension Theme {
   /// Adds a level 1 heading style to the theme.
   /// - Parameter body: A view builder that returns a customized level 1 heading.
@@ -459,6 +460,7 @@ extension Theme {
   }
 }
 
+@available(iOS 15, *)
 extension Theme {
   /// The text background color of the theme extracted from the ``Theme/text`` style.
   public var textBackgroundColor: Color? {
