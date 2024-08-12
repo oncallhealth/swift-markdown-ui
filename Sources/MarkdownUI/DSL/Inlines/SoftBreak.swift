@@ -3,6 +3,7 @@ import Foundation
 /// A soft break in a Markdown content block.
 ///
 /// A ``Markdown`` view will display a soft break as a space.
+@available(iOS 15, *)
 public struct SoftBreak: InlineContentProtocol {
   /// Creates a soft break inline element.
   public init() {}
@@ -12,6 +13,7 @@ public struct SoftBreak: InlineContentProtocol {
   }
 }
 
+@available(iOS 15, *)
 extension SoftBreak {
   public enum Mode {
     /// Treat a soft break as a space

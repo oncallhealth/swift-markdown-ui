@@ -1,6 +1,7 @@
 import Foundation
 
 /// A strong text in a Markdown content block.
+@available(iOS 15, *)
 public struct Strong: InlineContentProtocol {
   public var _inlineContent: InlineContent {
     .init(inlines: [.strong(children: self.content.inlines)])

@@ -1,6 +1,7 @@
 import Foundation
 
 /// An emphasized text in a Markdown content block.
+@available(iOS 15, *)
 public struct Emphasis: InlineContentProtocol {
   public var _inlineContent: InlineContent {
     .init(inlines: [.emphasis(children: self.content.inlines)])

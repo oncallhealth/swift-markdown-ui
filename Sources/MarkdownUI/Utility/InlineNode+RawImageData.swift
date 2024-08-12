@@ -6,6 +6,7 @@ struct RawImageData: Hashable {
   var destination: String?
 }
 
+@available(iOS 15, *)
 extension InlineNode {
   var imageData: RawImageData? {
     switch self {

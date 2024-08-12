@@ -1,6 +1,7 @@
 import Foundation
 
 /// A deleted or redacted text in a Markdown content block.
+@available(iOS 15, *)
 public struct Strikethrough: InlineContentProtocol {
   public var _inlineContent: InlineContent {
     .init(inlines: [.strikethrough(children: self.content.inlines)])
