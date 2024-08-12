@@ -1,6 +1,7 @@
 import Foundation
 
 /// A protocol that represents any Markdown content.
+@available(iOS 15, *)
 public protocol MarkdownContentProtocol {
   var _markdownContent: MarkdownContent { get }
 }
