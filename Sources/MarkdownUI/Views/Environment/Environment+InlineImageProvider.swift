@@ -21,6 +21,7 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct InlineImageProviderKey: EnvironmentKey {
   static let defaultValue: InlineImageProvider = .default
 }

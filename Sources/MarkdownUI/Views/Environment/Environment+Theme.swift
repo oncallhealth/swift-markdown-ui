@@ -71,6 +71,7 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct ThemeKey: EnvironmentKey {
   static let defaultValue: Theme = .basic
 }

@@ -53,6 +53,7 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct TextStyleKey: EnvironmentKey {
   static let defaultValue: TextStyle = FontProperties()
 }

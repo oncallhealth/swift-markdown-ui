@@ -16,6 +16,7 @@ extension View {
   }
 }
 
+@available(iOS 15, *)
 extension EnvironmentValues {
   var codeSyntaxHighlighter: CodeSyntaxHighlighter {
     get { self[CodeSyntaxHighlighterKey.self] }
@@ -23,6 +24,7 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct CodeSyntaxHighlighterKey: EnvironmentKey {
   static let defaultValue: CodeSyntaxHighlighter = .plainText
 }

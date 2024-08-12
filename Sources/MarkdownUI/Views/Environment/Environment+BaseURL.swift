@@ -13,10 +13,12 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct BaseURLKey: EnvironmentKey {
   static var defaultValue: URL? = nil
 }
 
+@available(iOS 15, *)
 private struct ImageBaseURLKey: EnvironmentKey {
   static var defaultValue: URL? = nil
 }

@@ -13,10 +13,12 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct ListLevelKey: EnvironmentKey {
   static var defaultValue = 0
 }
 
+@available(iOS 15, *)
 private struct TightSpacingEnabledKey: EnvironmentKey {
   static var defaultValue = false
 }

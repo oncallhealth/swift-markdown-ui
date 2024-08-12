@@ -38,10 +38,12 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct TableBorderStyleKey: EnvironmentKey {
   static let defaultValue = TableBorderStyle(color: .secondary)
 }
 
+@available(iOS 15, *)
 private struct TableBackgroundStyleKey: EnvironmentKey {
   static let defaultValue = TableBackgroundStyle.clear
 }

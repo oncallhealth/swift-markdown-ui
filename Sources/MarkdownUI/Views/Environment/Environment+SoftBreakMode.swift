@@ -20,6 +20,7 @@ extension EnvironmentValues {
   }
 }
 
+@available(iOS 15, *)
 private struct SoftBreakModeKey: EnvironmentKey {
   static let defaultValue: SoftBreak.Mode = .space
 }

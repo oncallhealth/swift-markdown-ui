@@ -99,6 +99,7 @@ import SwiftUI
 ///   }
 ///   // More block styles...
 /// ```
+@available(iOS 15, *)
 public struct Theme {
   /// The default text style.
   public var text: TextStyle = EmptyTextStyle()
@@ -199,6 +200,7 @@ public struct Theme {
   public init() {}
 }
 
+@available(iOS 15, *)
 extension Theme {
   /// Adds a default text style to the theme.
   /// - Parameter text: A text style builder that returns the default text style.
