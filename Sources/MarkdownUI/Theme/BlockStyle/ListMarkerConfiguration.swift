@@ -61,7 +61,7 @@ extension BlockStyle where Configuration == ListMarkerConfiguration {
 }
 
 // MARK: Dynamic
-
+@available(iOS 15, *)
 extension BlockStyle where Configuration == ListMarkerConfiguration {
   /// A list marker style that uses decimal numbers beginning with 1.
   public static func decimal(minWidth: RelativeSize, alignment: Alignment = .center) -> Self {
